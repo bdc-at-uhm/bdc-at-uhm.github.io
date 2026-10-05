@@ -27,6 +27,7 @@ import elijah_michaella from './images/elijah_michaella.webp';
 import inn from './images/inn.png';
 import fathers_day from './images/fathers_day.jpeg';
 import winter2022 from './images/winter2022.jpg';
+import hpr_interview from './images/hpr_interview.webp';
 
 function InTheNews() {
     return (
@@ -146,6 +147,21 @@ function InTheNews() {
                                         </Card.Body>
                                     </Card>
                                 </Col>
+
+                                <Col>
+                                    <Card className='h-100'>
+                                        <Card.Img variant="top" src={hpr_interview} />
+                                        <Card.Body>
+                                            <Card.Title>UH Mānoa ballroom dance club reflects on defending national title
+                                            </Card.Title>
+                                            <Card.Text>
+                                                <i>Via Hawaii Public Radio.</i> Hula takes the stage Thursday night at the 62nd annual Merrie Monarch Festival in Hilo, beginning with the Miss Aloha Hula competition. As we celebrate artistry and tradition, we thought we'd highlight another group of award-winning dancers competing at the highest levels...
+                                            </Card.Text>
+                                            <Button className='card-button' href='https://www.hawaiipublicradio.org/the-conversation/2025-04-24/uh-manoa-ballroom-dance-club-reflects-on-defending-national-title' >Listen Here</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+
                                 <Col>
                                     <Card className='h-100'>
                                         <Card.Img variant="top" src={nationals2025} />
