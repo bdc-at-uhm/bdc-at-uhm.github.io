@@ -16,14 +16,14 @@ import './index.css';
 
 function Home() {
     return (
-        <Container fluid style={{ padding: '2vw' }}>
+        <Container fluid style={{ padding: '4vw' }}>
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
-                        <Link to= '/' className='h1 corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center', textDecoration: 'none' }}>
+                        <Link to='/' className='h1 corinthia-bold text-center' style={{ color: '#F3F0EC', marginBottom: 0, alignSelf: 'center', textDecoration: 'none' }}>
                             Ballroom Dance Club
                         </Link>
-                        <Link to='/' className= 'p' style={{ color: '#F3F0EC', margin: 0, alignSelf: 'center', textDecoration: 'none' }}>
+                        <Link to='/' className='p' style={{ color: '#F3F0EC', margin: 0, alignSelf: 'center', textDecoration: 'none' }}>
                             AT UNIVERSITY OF HAWAII
                         </Link>
                     </div>
@@ -33,7 +33,7 @@ function Home() {
                 <hr style={{ color: '#F3F0EC', height: '2px', opacity: 0.8, margin: 0, marginBottom: '1vw' }}
                 />
                 <Nav style={{ justifyContent: 'space-between' }}>
-                <Nav.Link as={Link} to='/about'>
+                    <Nav.Link as={Link} to='/about'>
                         ABOUT
                     </Nav.Link>
                     <Nav.Link as={Link} to='/howtojoin'>
@@ -42,7 +42,7 @@ function Home() {
                     <Nav.Link>
                         FOR NEW PERFORMERS
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/inthenews'>
                         IN THE NEWS
                     </Nav.Link>
                     <Nav.Link>
@@ -51,7 +51,7 @@ function Home() {
                 </Nav>
             </Row>
             <Container>
-                <Row className="flex-column flex-md-row" style={{ 'margin-left': 'none' }}>
+                <Row className="flex-column flex-md-row gy-4" style={{ 'margin-left': 'none' }}>
                     <Carousel className='carousel-main' xs={12} fade ride="carousel" style={{ paddingRight: '2vw', width: '55vw' }}>
                         <Carousel.Item>
                             <img
@@ -90,8 +90,8 @@ function Home() {
                         </Carousel.Item>
                     </Carousel>
 
-                    <Col className="intro-block" style={{ backgroundColor: '#F3F0EC', color: '#201D1D' }}>
-                        <div style={{ padding: '2vw' }}>
+                    <Col className="p-4" style={{ backgroundColor: '#F3F0EC', color: '#201D1D'}}>
+                        <div>
                             <h1 className='corinthia-bold'>
                                 Let's Dance!
                             </h1>
@@ -105,7 +105,7 @@ function Home() {
                                 Interestingly, many of the top Adult Amateur ballroom dancers in the US are <b>Computer Science or Engineering majors and graduates</b> — you might even have one of them interview you for your next job!
                             </p>
                             <br />
-                            <Link className='h4' style={{ textAlign: '-khtml-right' }} to = '/about'>
+                            <Link className='h4' style={{ textAlign: '-khtml-right' }} to='/about'>
                                 Learn more
                             </Link>
                         </div>

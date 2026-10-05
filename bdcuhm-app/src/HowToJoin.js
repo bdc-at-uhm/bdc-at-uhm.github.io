@@ -40,7 +40,7 @@ function HowToJoin() {
                     <Nav.Link>
                         FOR NEW PERFORMERS
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/inthenews'>
                         IN THE NEWS
                     </Nav.Link>
                     <Nav.Link>
@@ -50,12 +50,12 @@ function HowToJoin() {
             </Row>
 
             <Container>
-                <Row className="mb-5 what-we-do" style={{ 'marginLeft': 'none' }}>
+                <Row className="h-100 my-4 what-we-do gy-4 gy-md-0" style={{ 'margin-left': 'none' }}>
                     <Col xs={12} md={6} className='photo-area' >
                         <Image src={team_match_alum} fluid />
                     </Col>
                     <Col xs={12} md={6}>
-                        <div style={{ padding: '2vw', backgroundColor: '#F3F0EC', color: '#201D1D' }}>
+                        <div className='p-4' style={{backgroundColor: '#F3F0EC', color: '#201D1D' }}>
                             <h2>
                                 &#x1F4C5; Class Schedule & Sessions
                             </h2>

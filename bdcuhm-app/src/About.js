@@ -10,7 +10,7 @@ import aloha_ball_formation from './images/aloha_ball_formation.JPG';
 import ravi_profile from './images/ravi_profile.PNG';
 import chris_profile from './images/chris_profile.JPG';
 import lyndsey_profile from './images/lyndsey_profile.JPG';
-import shaelyn_profile from './images/shaelyn_profile.JPG';
+import jon_profile from './images/jon_profile.jpg';
 import alex_profile from './images/alex_profile.JPG';
 import delle_profile from './images/delle_profile.JPG';
 import michaella_profile from './images/michaella_profile.JPG';
@@ -18,7 +18,7 @@ import luis_profile from './images/luis_profile.jpeg';
 
 function About() {
     return (
-        <Container fluid style={{ padding: '2vw' }}>
+        <Container fluid style={{ padding: '4vw' }}>
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
@@ -44,7 +44,7 @@ function About() {
                     <Nav.Link>
                         FOR NEW PERFORMERS
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/inthenews'>
                         IN THE NEWS
                     </Nav.Link>
                     <Nav.Link>
@@ -54,7 +54,7 @@ function About() {
             </Row>
 
             <Container>
-                <Row className="mb-3 what-we-do" style={{ 'marginLeft': 'none' }}>
+                <Row className="my-4 what-we-do" style={{ 'marginLeft': 'none' }}>
                     <Col xs={12} md={6} style={{ color: '#F3F0EC' }}>
                         <div style={{ padding: '2vw' }}>
                             <h1>
@@ -88,14 +88,14 @@ function About() {
 
             <Container>
                 <Col xs={24} md={12}>
-                    <div style={{ padding: '2vw' }}>
+                    <div style={{padding: '2vw'}}>
                         <h1 style={{ color: '#F3F0EC' }}>
                             Meet Our Officers
                         </h1>
                     </div>
 
-                    <Row style={{
-                        padding: '2vw', justifyContent: 'space-between', display: 'flex',
+                    <Row className='justify-content-center justify-content-md-between gy-2 gy-md-0' style={{
+                        padding: '2vw', display: 'flex',
                         flexwrap: 'wrap', gap: '2vw'
                     }}>
                         <Card className='d-flex align-items-stretch' style={{ width: '18rem', backgroundColor: '#F0BB2B' }}>
@@ -141,13 +141,13 @@ function About() {
                             <Card.Body>
                                 <Image
                                     fluid
-                                    src={shaelyn_profile}
+                                    src={jon_profile}
                                     roundedCircle
                                     className="mb-3"
                                     style={{ height: '100px', aspectRatio: '100x100' }}
                                 />
                                 <Card.Title className='officer-title'>SECRETARY</Card.Title>
-                                <Card.Text className='officer-name'>Shaelyn Loo</Card.Text>
+                                <Card.Text className='officer-name'>Jonathan Bona</Card.Text>
                             </Card.Body>
                         </Card>
                         <Card className='d-flex align-items-stretch' style={{ width: '18rem', backgroundColor: '#F0BB2B' }}>
