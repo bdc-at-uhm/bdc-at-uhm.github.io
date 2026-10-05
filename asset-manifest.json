@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ea2a6ddd.css",
-    "main.js": "/static/js/main.1f37e29c.js",
+    "main.js": "/static/js/main.b57ef854.js",
     "static/js/453.5534e919.chunk.js": "/static/js/453.5534e919.chunk.js",
     "static/media/inn.png": "/static/media/inn.226e5cfec6cd03cb353b.png",
     "static/media/team_match_alum.JPG": "/static/media/team_match_alum.35a70e531f4d7876e796.JPG",
@@ -32,18 +32,18 @@
     "static/media/gen_1_nationals.jpg": "/static/media/gen_1_nationals.28061bda7b3c626dcb6e.jpg",
     "static/media/delle_profile.JPG": "/static/media/delle_profile.c51ab2fd4c9af794d970.JPG",
     "static/media/shall_we_dance.jpg": "/static/media/shall_we_dance.6d19220e7eccbbf178a8.jpg",
+    "static/media/midweek.jpg": "/static/media/midweek.d486ae23aebfb6a539e1.jpg",
     "static/media/luis_profile.jpeg": "/static/media/luis_profile.7352c54adb50ff902866.jpeg",
     "static/media/winter2022.jpg": "/static/media/winter2022.c8f7ca01a377112b86f4.jpg",
     "static/media/ravi_profile.PNG": "/static/media/ravi_profile.e5688c1e5c4a4d751169.PNG",
-    "static/media/midweek.jpeg": "/static/media/midweek.2dba458dff93b7509686.jpeg",
     "static/media/ys_dl_triblive.jpg": "/static/media/ys_dl_triblive.7e44a7d3fed302de6ddb.jpg",
     "index.html": "/index.html",
     "main.ea2a6ddd.css.map": "/static/css/main.ea2a6ddd.css.map",
-    "main.1f37e29c.js.map": "/static/js/main.1f37e29c.js.map",
+    "main.b57ef854.js.map": "/static/js/main.b57ef854.js.map",
     "453.5534e919.chunk.js.map": "/static/js/453.5534e919.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2a6ddd.css",
-    "static/js/main.1f37e29c.js"
+    "static/js/main.b57ef854.js"
   ]
 }
