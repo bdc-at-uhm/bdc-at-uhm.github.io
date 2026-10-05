@@ -9,7 +9,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Button from 'react-bootstrap/Button';
 
-import midweek from './images/midweek.jpeg';
+import midweek from './images/midweek.jpg';
 import shallwedance from './images/shall_we_dance.jpg';
 import collegiatenationals2 from './images/collegiate_nationals_2.jpg';
 import nationals2025 from './images/2025_nationals_team.jpg';
