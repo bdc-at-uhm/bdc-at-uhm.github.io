@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ea2a6ddd.css",
-    "main.js": "/static/js/main.b57ef854.js",
+    "main.js": "/static/js/main.3ff0cddf.js",
     "static/js/453.5534e919.chunk.js": "/static/js/453.5534e919.chunk.js",
     "static/media/inn.png": "/static/media/inn.226e5cfec6cd03cb353b.png",
     "static/media/team_match_alum.JPG": "/static/media/team_match_alum.35a70e531f4d7876e796.JPG",
+    "static/media/LetsDanceStory.pdf": "/static/media/LetsDanceStory.9c0307c5e80a52c833f2.pdf",
     "static/media/2025nationals.JPG": "/static/media/2025nationals.c3c10df6bbe1606b7d51.JPG",
     "static/media/nationals_group.JPG": "/static/media/nationals_group.95b0ae641fffee145e50.JPG",
     "static/media/ravi_synthia_standard.JPG": "/static/media/ravi_synthia_standard.8ae91e46666782cd98bf.JPG",
@@ -13,6 +14,7 @@
     "static/media/caleb_amanda_smooth.JPG": "/static/media/caleb_amanda_smooth.679f3c975fd71eb69da0.JPG",
     "static/media/elijah_michaella.webp": "/static/media/elijah_michaella.d61b482f0263ec7fc93f.webp",
     "static/media/aloha_ball_formation.JPG": "/static/media/aloha_ball_formation.20846426c447020089f2.JPG",
+    "static/media/spring_2024_formation.jpg": "/static/media/spring_2024_formation.2df780013c763c0d56ad.jpg",
     "static/media/andrea_article.jpg": "/static/media/andrea_article.cc3785872baab085a884.jpg",
     "static/media/chris_wen.jpg": "/static/media/chris_wen.554721f35e8e713a0ef9.jpg",
     "static/media/collegiate_nationals_2.jpg": "/static/media/collegiate_nationals_2.88eb9ce20a6b3a9d64e7.jpg",
@@ -39,11 +41,11 @@
     "static/media/ys_dl_triblive.jpg": "/static/media/ys_dl_triblive.7e44a7d3fed302de6ddb.jpg",
     "index.html": "/index.html",
     "main.ea2a6ddd.css.map": "/static/css/main.ea2a6ddd.css.map",
-    "main.b57ef854.js.map": "/static/js/main.b57ef854.js.map",
+    "main.3ff0cddf.js.map": "/static/js/main.3ff0cddf.js.map",
     "453.5534e919.chunk.js.map": "/static/js/453.5534e919.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2a6ddd.css",
-    "static/js/main.b57ef854.js"
+    "static/js/main.3ff0cddf.js"
   ]
 }
