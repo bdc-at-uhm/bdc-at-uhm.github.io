@@ -16,7 +16,7 @@ import './index.css';
 
 function Home() {
     return (
-        <Container fluid style={{ padding: '4vw' }}>
+        <Container fluid style={{ padding: '2vw' }}>
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
@@ -39,7 +39,7 @@ function Home() {
                     <Nav.Link as={Link} to='/howtojoin'>
                         HOW TO JOIN
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/fornewperformers'>
                         FOR NEW PERFORMERS
                     </Nav.Link>
                     <Nav.Link as={Link} to='/inthenews'>
@@ -51,7 +51,7 @@ function Home() {
                 </Nav>
             </Row>
             <Container>
-                <Row className="flex-column flex-md-row gy-4" style={{ 'margin-left': 'none' }}>
+                <Row className="flex-column flex-md-row gy-4" style={{ 'margin-left': 'none'}}>
                     <Carousel className='carousel-main' xs={12} fade ride="carousel" style={{ paddingRight: '2vw', width: '55vw' }}>
                         <Carousel.Item>
                             <img

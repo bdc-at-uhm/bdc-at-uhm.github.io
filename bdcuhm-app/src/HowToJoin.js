@@ -37,7 +37,7 @@ function HowToJoin() {
                     <Nav.Link as={Link} to='/howtojoin'>
                         HOW TO JOIN
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/fornewperformers'>
                         FOR NEW PERFORMERS
                     </Nav.Link>
                     <Nav.Link as={Link} to='/inthenews'>

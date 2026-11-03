@@ -18,7 +18,7 @@ import luis_profile from './images/luis_profile.jpeg';
 
 function About() {
     return (
-        <Container fluid style={{ padding: '4vw' }}>
+        <Container fluid style={{ padding: '2vw' }}>
             <Row style={{ marginBottom: '1vw' }}>
                 <Col>
                     <div className="title-bar d-flex flex-column flex-md-row gap-0 gap-md-4" style={{ justifyContent: 'center' }}>
@@ -41,7 +41,7 @@ function About() {
                     <Nav.Link as={Link} to='/howtojoin'>
                         HOW TO JOIN
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/fornewperformers'>
                         FOR NEW PERFORMERS
                     </Nav.Link>
                     <Nav.Link as={Link} to='/inthenews'>
@@ -55,12 +55,11 @@ function About() {
 
             <Container>
                 <Row className="my-4 what-we-do" style={{ 'marginLeft': 'none' }}>
+                    <h1 style={{ color: '#F3F0EC' }}>
+                        What We Do
+                    </h1>
                     <Col xs={12} md={6} style={{ color: '#F3F0EC' }}>
                         <div style={{ padding: '2vw' }}>
-                            <h1>
-                                What We Do
-                            </h1>
-                            <br></br>
                             <p style={{ fontSize: 'calc(1rem+0.1vw)' }}>
                                 Members learn the basics of several dance styles and have the opportunity to participate in <b>performances for the local ballroom community</b> as well as <b>compete in statewide competitions</b> held twice a year. Motivated members have the opportunity to <b>represent the University of Hawaii at the yearly USA Dance Nationals.</b> We are always looking for new dancers and will train you!
                             </p>
@@ -88,7 +87,7 @@ function About() {
 
             <Container>
                 <Col xs={24} md={12}>
-                    <div style={{padding: '2vw'}}>
+                    <div style={{ padding: '2vw' }}>
                         <h1 style={{ color: '#F3F0EC' }}>
                             Meet Our Officers
                         </h1>

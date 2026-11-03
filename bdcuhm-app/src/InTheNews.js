@@ -29,6 +29,8 @@ import fathers_day from './images/fathers_day.jpeg';
 import winter2022 from './images/winter2022.jpg';
 import hpr_interview from './images/hpr_interview.webp';
 
+import lets_dance_pdf from './files/LetsDanceStory.pdf';
+
 function InTheNews() {
     return (
 
@@ -55,7 +57,7 @@ function InTheNews() {
                     <Nav.Link as={Link} to='/howtojoin'>
                         HOW TO JOIN
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/fornewperformers'>
                         FOR NEW PERFORMERS
                     </Nav.Link>
                     <Nav.Link as={Link} to='/inthenews'>
@@ -97,7 +99,7 @@ function InTheNews() {
                                             <Card.Text>
                                                 <i>Via Midweek.</i> It’s a rare occasion when a team goes for a three-peat — a term first popularized by the head coach of the Los Angeles Lakers, Pat Riley, in the late 1980s...
                                             </Card.Text>
-                                            <Button className='card-button' href='https://www.midweek.com/lets-dance/' >Keep Reading</Button>
+                                            <Button className='card-button' href={lets_dance_pdf} target="_blank" >Keep Reading</Button>
                                         </Card.Body>
                                     </Card>
                                 </Col>

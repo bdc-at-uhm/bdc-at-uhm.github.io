@@ -4,6 +4,7 @@ import Home from './Home';
 import HowToJoin from './HowToJoin';
 import About from './About';
 import InTheNews from './InTheNews';
+import ForNewPerformers from './ForNewPerformers';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -40,6 +41,7 @@ function App() {
         <Route path="/howtojoin" element={<HowToJoin />} />
         <Route path='/about' element={<About />} />
         <Route path='/inthenews' element={<InTheNews />} />
+        <Route path='/fornewperformers' element={<ForNewPerformers />} />
       </Routes>
     </HashRouter>
 
