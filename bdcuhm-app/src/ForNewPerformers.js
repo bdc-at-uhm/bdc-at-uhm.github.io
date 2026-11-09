@@ -254,7 +254,7 @@ function ForNewPerformers() {
                                             </Link>
                                             <br></br>
                                             <br></br>
-                                            Cheaper alternatives are available on Amazon, but may not last as long. Buy tan/bronze color only (no silver, gold, or white color).
+                                            Cheaper alternatives are available on Amazon, but may not last as long.
                                         </Col>
                                     </Row>
                                     <br></br>
