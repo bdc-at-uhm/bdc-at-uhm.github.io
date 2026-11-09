@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f687cd94.css",
-    "main.js": "/static/js/main.cd056fea.js",
+    "main.js": "/static/js/main.8063ec59.js",
     "static/js/453.5534e919.chunk.js": "/static/js/453.5534e919.chunk.js",
     "static/media/inn.png": "/static/media/inn.226e5cfec6cd03cb353b.png",
     "static/media/team_match_alum.JPG": "/static/media/team_match_alum.35a70e531f4d7876e796.JPG",
@@ -47,11 +47,11 @@
     "static/media/star_mens.jpeg": "/static/media/star_mens.a427518ec0c6b2ddaf33.jpeg",
     "index.html": "/index.html",
     "main.f687cd94.css.map": "/static/css/main.f687cd94.css.map",
-    "main.cd056fea.js.map": "/static/js/main.cd056fea.js.map",
+    "main.8063ec59.js.map": "/static/js/main.8063ec59.js.map",
     "453.5534e919.chunk.js.map": "/static/js/453.5534e919.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f687cd94.css",
-    "static/js/main.cd056fea.js"
+    "static/js/main.8063ec59.js"
   ]
 }
