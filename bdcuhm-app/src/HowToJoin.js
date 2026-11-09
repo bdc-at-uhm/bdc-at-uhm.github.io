@@ -62,7 +62,10 @@ function HowToJoin() {
                             <br></br>
                                 <b>Everyone is Welcome! </b>
                                 <br></br>
-                                No prior dance experience or partner is required to join. Classes are for <i>current UH students only</i>.
+                                No prior dance experience or partner is required to join. 
+                                <br></br>
+                                <i>Classes are for current UH students only</i>.
+                                <br></br>
                                 <br></br>
                                 <ul>
                                     <li>
@@ -78,9 +81,6 @@ function HowToJoin() {
                                 <b>Upcoming Sessions & Styles</b>
                                 <br></br>
                                 <ul>
-                                    <li>
-                                        &#x2600; Summer Session (Just Started!): Waltz and Mambo
-                                    </li>
                                     <li>
                                         &#x1F342; Fall Session (Starts August 26): Waltz, Tango, Rumba, and Swing
                                     </li>
