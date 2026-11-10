@@ -56,11 +56,11 @@ function ForNewPerformers() {
             </Row>
 
             <Container>
-                <Row className="my-4 what-we-do" style={{ 'marginLeft': 'none' }}>
+                <Row className="my-4 what-we-do gy-4 gy-md-0" style={{ 'marginLeft': 'none' }}>
                     <h1 style={{ color: '#F3F0EC' }}>
                         For New Performers
                     </h1>
-                    <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} style={{ color: '#F3F0EC' }}>
+                    <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} style={{ color: '#F3F0EC' }}>
                         <div style={{ padding: '2vw', marginBottom: '2vw' }}>
                             <p style={{ fontSize: 'calc(1rem+0.1vw)' }}>
                                 The Ballroom Dance Club at UH Manoa offers multiple opportunities to perform per year, including formation performances and competitions. Performing is completely optional, but are excellent ways to improve dancing skills, learn cooperation with a partner, and bond with others in the club.
@@ -93,6 +93,7 @@ function ForNewPerformers() {
                             <Tab eventKey="FOLLOWS" title="FOLLOWS">
                                 <Row className='mx-0 w-100'>
                                     <Col className='px-0' style={{ color: '#F3F0EC' }}>
+                                        <br></br>
                                         <h2>
                                             Club Communications
                                         </h2>
@@ -105,7 +106,6 @@ function ForNewPerformers() {
                                             </Link>
                                         </p>
 
-                                        <br></br>
                                         <br></br>
                                         <h2>
                                             Performance Logistics
@@ -121,7 +121,6 @@ function ForNewPerformers() {
                                             The Palladium has dressing room areas and restrooms we can use to change. These changing rooms can get crowded, so it is important to <b>prepare as much as you can before coming to the Palladium</b> and keep track of your things. There is a rack to hang costumes on, but be sure to keep track of your costumes, as they may look alike.
                                         </p>
 
-                                        <br></br>
                                         <br></br>
 
                                         <h2>
@@ -178,7 +177,6 @@ function ForNewPerformers() {
                                         </Row>
 
                                         <br></br>
-                                        <br></br>
 
                                         <h2>
                                             Costumes
@@ -191,7 +189,6 @@ function ForNewPerformers() {
                                         <p>
                                             <b>Follows will need to purchase a pair of fishnet tights from Ms. Synthia (usually ~$25).</b> These are yours to keep and will last a long time if taken care of properly.
                                         </p>
-                                        <br></br>
                                         <br></br>
 
                                         <h2>
@@ -223,7 +220,6 @@ function ForNewPerformers() {
                                         </p>
 
                                         <br></br>
-                                        <br></br>
                                         <h2>
                                             General Packing/Supplies List
                                         </h2>
@@ -247,6 +243,7 @@ function ForNewPerformers() {
                             </Tab>
                             <Tab eventKey="LEADS" title="LEADS">
                                 <Col className='px-0' style={{ color: '#F3F0EC' }}>
+                                    <br></br>
                                     <h2>
                                         Club Communications
                                     </h2>
@@ -261,7 +258,6 @@ function ForNewPerformers() {
                                     </p>
 
                                     <br></br>
-                                    <br></br>
                                     <h2>
                                         Performance Logistics
                                     </h2>
@@ -275,7 +271,6 @@ function ForNewPerformers() {
                                     <p>
                                         The Palladium has dressing room areas and restrooms we can use to change. These changing rooms can get crowded, so it is important to <b>prepare as much as you can before coming to the Palladium</b> and keep track of your things. There is a rack to hang costumes on, but be sure to keep track of your costumes, as they may look alike.
                                     </p>
-                                    <br></br>
                                     <br></br>
                                     <h2>
                                         Shoes
@@ -330,7 +325,6 @@ function ForNewPerformers() {
                                         </Col>
                                     </Row>
                                     <br></br>
-                                    <br></br>
 
                                     <h2>
                                         Costumes
@@ -339,7 +333,6 @@ function ForNewPerformers() {
                                     <p>
                                         You do not need to purchase a costume in order to perform or compete. The club has costumes that are available for borrowing. <b>A $20 cleaning fee will be assessed each time you borrow a costume.</b> Please make sure to take care of the club's costumes, as ballroom attire is very delicate and can be very expensive!
                                     </p>
-                                    <br></br>
                                     <br></br>
 
                                     <h2>
@@ -363,7 +356,6 @@ function ForNewPerformers() {
                                             Ballroom Slick Bun Example - Hair by Sonya on Youtube
                                         </Link>
                                     </p>
-                                    <br></br>
                                     <br></br>
 
                                     <h2>

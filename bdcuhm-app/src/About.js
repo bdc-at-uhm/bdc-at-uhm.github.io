@@ -54,12 +54,13 @@ function About() {
             </Row>
 
             <Container>
-                <Row className="my-4 what-we-do" style={{ 'marginLeft': 'none' }}>
-                    <h1 style={{ color: '#F3F0EC' }}>
+                <Row className="my-4 what-we-do gy-4 gy-md-0" style={{ 'marginLeft': 'none' }}>
+                    <h1 style={{ color: '#F3F0EC', marginBottom: '2vw' }}>
                         What We Do
                     </h1>
-                    <Col xs={12} md={6} style={{ color: '#F3F0EC' }}>
-                        <div style={{ padding: '2vw' }}>
+
+                    <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} style={{ color: '#F3F0EC' }}>
+                        <div className='p-4'>
                             <p style={{ fontSize: 'calc(1rem+0.1vw)' }}>
                                 Members learn the basics of several dance styles and have the opportunity to participate in <b>performances for the local ballroom community</b> as well as <b>compete in statewide competitions</b> held twice a year. Motivated members have the opportunity to <b>represent the University of Hawaii at the yearly USA Dance Nationals.</b> We are always looking for new dancers and will train you!
                             </p>
@@ -79,7 +80,7 @@ function About() {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={6} className='photo-area' >
+                    <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }} className='photo-area' >
                         <Image src={aloha_ball_formation} fluid />
                     </Col>
                 </Row>
