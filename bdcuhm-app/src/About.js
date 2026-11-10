@@ -47,7 +47,7 @@ function About() {
                     <Nav.Link as={Link} to='/inthenews'>
                         IN THE NEWS
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/photogallery'>
                         PHOTO GALLERY
                     </Nav.Link>
                 </Nav>

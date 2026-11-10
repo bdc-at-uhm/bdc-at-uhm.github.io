@@ -49,7 +49,7 @@ function ForNewPerformers() {
                     <Nav.Link as={Link} to='/inthenews'>
                         IN THE NEWS
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link as={Link} to='/photogallery'>
                         PHOTO GALLERY
                     </Nav.Link>
                 </Nav>
@@ -100,10 +100,30 @@ function ForNewPerformers() {
                                         <p>
                                             <b>Performers must join our club Discord for news and updates.</b> We use Discord to post reminders, share photos, and share other performance-related information.
                                         </p>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
-                                        </Link>
+                                        <p>
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
+                                            </Link>
+                                        </p>
+
                                         <br></br>
                                         <br></br>
+                                        <h2>
+                                            Performance Logistics
+                                        </h2>
+                                        <br></br>
+                                        <p>
+                                            Our seasonal performances are always held at the <b>Ala Wai Palladium (404 Kapahulu Ave, Honolulu, HI 96815).</b> This is the second story of the Ala Wai Golf Course Clubhouse. Parking at the Palladium is ample and free. Doors will open for social dancing at 6:00pm, and the show will begin around 7:30pm.
+                                        </p>
+                                        <p>
+                                            <b>Performers will be expected to arrive a few hours early (4-4:30pm) on the day of the performance for a final run-through.</b> We may also have  an additional run-through at the Palladium during the week leading up to the performance. These run-throughs are <b>extremely important,</b> as the Palladium is not the same size as Studio 2. Spacing and movement may be different than you are used to. The floor is also cleaner and of higher quality than Studio 2, which can feel slippery if you are not prepared.
+                                        </p>
+                                        <p>
+                                            The Palladium has dressing room areas and restrooms we can use to change. These changing rooms can get crowded, so it is important to <b>prepare as much as you can before coming to the Palladium</b> and keep track of your things. There is a rack to hang costumes on, but be sure to keep track of your costumes, as they may look alike.
+                                        </p>
+
+                                        <br></br>
+                                        <br></br>
+
                                         <h2>
                                             Shoes
                                         </h2>
@@ -113,8 +133,13 @@ function ForNewPerformers() {
                                         </p>
 
                                         <p>
-                                            There are many different options available depending on your budget/foot size. Shoes should fit tightly (usually 1/2 to 1 size smaller than street shoe size) and conform to your foot as you break them in. <b>It is highly recommended to talk to team members to try on shoes before buying anything.</b>
+                                            There are many different options available depending on your budget/foot size. Shoes should fit tightly (usually 1 to 2 sizes smaller than street shoe size) and conform to your foot as you break them in. Note that you may have to convert your shoe size depending on what country the shoes are coming from.
+
+                                        </p><p>
+
+                                            Loose shoes can result in injury, so it is generally safer to err on the tighter side - you should <b>not</b> be able to fit a finger behind your ankle.<b> It is highly recommended to talk to team members to try on shoes before buying anything.</b> You will need time to adjust to dancing in the shoes, so make sure to order well ahead of the performance and take into account shipping to Hawaii.
                                         </p>
+                                        <br></br>
 
                                         <Row xs={1} md={2} lg={3} className='g-4'>
                                             <Col>
@@ -126,7 +151,7 @@ function ForNewPerformers() {
                                                 </Link>
                                                 <br></br>
                                                 <br></br>
-                                                This vendor is recommended by our instructors. Buy tan/bronze color only (no silver, gold, or white color).
+                                                This vendor is recommended by our instructors. Buy <b>tan/bronze color only</b> (no silver, gold, white, or other color).
                                             </Col>
                                             <Col>
                                                 <Image src={ldae_leatherette} fluid></Image>
@@ -137,7 +162,7 @@ function ForNewPerformers() {
                                                 </Link>
                                                 <br></br>
                                                 <br></br>
-                                                This vendor is popular among the team. Buy tan/bronze color only (no silver, gold, or white color).
+                                                This vendor is popular among the team. Buy <b>tan/bronze color only</b> (no silver, gold, white, or other color).
                                             </Col>
                                             <Col>
                                                 <Image src={amazon_rosemoli} fluid></Image>
@@ -148,10 +173,25 @@ function ForNewPerformers() {
                                                 </Link>
                                                 <br></br>
                                                 <br></br>
-                                                Cheaper alternatives are available on Amazon, but may not last as long. Buy tan/bronze color only (no silver, gold, or white color).
+                                                Cheaper alternatives are available on Amazon, but may not last as long. Buy <b>tan/bronze color only</b> (no silver, gold, white, or other color).
                                             </Col>
                                         </Row>
 
+                                        <br></br>
+                                        <br></br>
+
+                                        <h2>
+                                            Costumes
+                                        </h2>
+                                        <br></br>
+                                        <p>
+                                            You do not need to purchase a costume in order to perform or compete. The club has costumes that are available for borrowing. <b>A $20 cleaning fee will be assessed each time you borrow a costume.</b> Please make sure to take care of the club's costumes, as ballroom attire is very delicate and can be very expensive!
+                                        </p>
+
+                                        <p>
+                                            <b>Follows will need to purchase a pair of fishnet tights from Ms. Synthia (usually ~$25).</b> These are yours to keep and will last a long time if taken care of properly.
+                                        </p>
+                                        <br></br>
                                         <br></br>
 
                                         <h2>
@@ -159,26 +199,29 @@ function ForNewPerformers() {
                                         </h2>
                                         <br></br>
                                         <p>
-                                            Follows will be expected to do their own hair and makeup on performance days. Please do not expect others to be ready to help you last-minute as everyone is responsible for their own dressing. <b>Forming small groups and getting ready together is encouraged.</b>
+                                            Follows will be expected to do their own hair and makeup on performance days. <b>Please do not expect others to be ready to help you last-minute</b> as everyone is responsible for their own dressing. <b>Forming small groups and getting ready together is encouraged.</b>
                                         </p>
 
                                         <p>
-                                            Team members will usually hold a <b>Hair and Makeup Workshop</b> a few weeks before performances. In these workshops, we will go over expectations, answer questions, and walk through a hair tutorial. <b>Attendance is highly encouraged for new follows.</b>
+                                            Team members will usually hold a <b>Hair and Makeup Workshop</b> a few weeks before performances. In these workshops, we will go over expectations, answer questions, and walk through a hair tutorial. <b>Attendance is highly encouraged for new follows.</b> The ballroom look is very different from street/trendy styles, so it is recommended to practice before the show.
+                                            <br></br>
+                                            <br></br>
+
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1HX33cTWHCbWW7r1ccHWSIbO_C43wy9zkobV2VvQ02ac/edit?tab=t.0#heading=h.n7iieuiqv8ni'>
+                                                Makeup Products Suggestions/Checklist
+                                            </Link>
+                                            <br></br>
+                                            <br></br>
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=lxI0On8ayAM'>
+                                                DanceSport Makeup Example - RickieTBeauty on Youtube
+                                            </Link>
+                                            <br></br>
+                                            <br></br>
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=5Z3DQ0sGofg'>
+                                                Ballroom Hairstyle Example - Kiddie Cuties Corner on Youtube
+                                            </Link>
                                         </p>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1HX33cTWHCbWW7r1ccHWSIbO_C43wy9zkobV2VvQ02ac/edit?tab=t.0#heading=h.n7iieuiqv8ni'>
-                                            Makeup Products Suggestions/Checklist
-                                        </Link>
-                                        <br></br>
-                                        <br></br>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=lxI0On8ayAM'>
-                                            DanceSport Makeup Example - RickieTBeauty on Youtube
-                                        </Link>
-                                        <br></br>
-                                        <br></br>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=5Z3DQ0sGofg'>
-                                            Ballroom Hairstyle Example - Kiddie Cuties Corner on Youtube
-                                        </Link>
-                                        <br></br>
+
                                         <br></br>
                                         <br></br>
                                         <h2>
@@ -186,11 +229,16 @@ function ForNewPerformers() {
                                         </h2>
                                         <br></br>
                                         <p>
-                                            Please use this checklist, created for Nationals Competitors, as a guideline of items you might need for performance and competition.
+                                            Please use this checklist as a guideline of items you might need for performance day.
+
+                                            <br></br>
+                                            <br></br>
+
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1W4d6zZKrgKz2fo7NjFEi56d6yKkTsqy9rmQwqnm5oms/edit?usp=sharing'>
+                                                Follows' Packing List
+                                            </Link>
                                         </p>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1dQ9TWEtA4uPiTMysOw43pjwqfw_HFtGS6GNp9r0kCNI/edit?tab=t.0#heading=h.p2p7y42ki00t'>
-                                            Follows' Packing List
-                                        </Link>
+
                                     </Col>
 
                                 </Row>
@@ -205,9 +253,28 @@ function ForNewPerformers() {
                                     <br></br>
                                     <p>
                                         <b>Performers must join our club Discord for news and updates.</b> We use Discord to post reminders, share photos, and share other performance-related information.
+
                                     </p>
-                                    <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
-                                    </Link>
+                                    <p>
+                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
+                                        </Link>
+                                    </p>
+
+                                    <br></br>
+                                    <br></br>
+                                    <h2>
+                                        Performance Logistics
+                                    </h2>
+                                    <br></br>
+                                    <p>
+                                        Our seasonal performances are always held at the <b>Ala Wai Palladium (404 Kapahulu Ave, Honolulu, HI 96815).</b> This is the second story of the Ala Wai Golf Course Clubhouse. Parking at the Palladium is ample and free. Doors will open for social dancing at 6:00pm, and the show will begin around 7:30pm.
+                                    </p>
+                                    <p>
+                                        <b>Performers will be expected to arrive a few hours early (4-4:30pm) on the day of the performance for a final run-through.</b> We may also have  an additional run-through at the Palladium during the week leading up to the performance. These run-throughs are <b>extremely important,</b> as the Palladium is not the same size as Studio 2. Spacing and movement may be different than you are used to. The floor is also cleaner and of higher quality than Studio 2, which can feel slippery if you are not prepared.
+                                    </p>
+                                    <p>
+                                        The Palladium has dressing room areas and restrooms we can use to change. These changing rooms can get crowded, so it is important to <b>prepare as much as you can before coming to the Palladium</b> and keep track of your things. There is a rack to hang costumes on, but be sure to keep track of your costumes, as they may look alike.
+                                    </p>
                                     <br></br>
                                     <br></br>
                                     <h2>
@@ -219,7 +286,12 @@ function ForNewPerformers() {
                                     </p>
 
                                     <p>
-                                        There are many different options available depending on your budget/foot size. Shoes should fit tightly (usually 1/2 to 1 size smaller than street shoe size) and conform to your foot as you break them in. <b>It is highly recommended to talk to team members to try on shoes before buying anything.</b>
+                                        There are many different options available depending on your budget/foot size. Shoes should fit tightly (usually 1 to 2 sizes smaller than street shoe size) and conform to your foot as you break them in. Note that you may have to convert your shoe size depending on what country the shoes are coming from.
+
+                                    </p>
+                                    <p>
+
+                                        Loose shoes can result in injury, so it is generally safer to err on the tighter side - you should <b>not</b> be able to fit a finger behind your ankle. <b> It is highly recommended to talk to team members to try on shoes before buying anything.</b> You will need time to adjust to dancing in the shoes, so make sure to order well ahead of the performance and take into account shipping to Hawaii.
                                     </p>
 
                                     <Row xs={1} md={2} lg={3} className='g-4 mt-3'>
@@ -258,13 +330,50 @@ function ForNewPerformers() {
                                         </Col>
                                     </Row>
                                     <br></br>
+                                    <br></br>
+
+                                    <h2>
+                                        Costumes
+                                    </h2>
+                                    <br></br>
+                                    <p>
+                                        You do not need to purchase a costume in order to perform or compete. The club has costumes that are available for borrowing. <b>A $20 cleaning fee will be assessed each time you borrow a costume.</b> Please make sure to take care of the club's costumes, as ballroom attire is very delicate and can be very expensive!
+                                    </p>
+                                    <br></br>
+                                    <br></br>
+
+                                    <h2>
+                                        Hair and Grooming
+                                    </h2>
+                                    <br></br>
+                                    <p>
+                                        Leads will be expected to take care of their own appearance on performance days. <b>Please do not expect others, especially follows, to be ready to help you last-minute</b> as everyone is responsible for their own dressing. This includes having your tie prepared. <b>Forming small groups and getting ready together is encouraged.</b>
+                                    </p>
+                                    <p>
+                                        Team members will usually hold a <b>Leads' Grooming Workshop</b> a few weeks before performances. In these workshops, we will go over expectations, answer questions, and walk through tutorials. <b>Attendance is highly encouraged for new leads.</b> The ballroom look is very different from street/trendy styles, so it is recommended to practice before the show.
+                                        <br></br>
+                                        <br></br>
+
+                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=STaLPeaW7ak'>
+                                            Ballroom Hair Example - BallroomVibez on Youtube
+                                        </Link>
+                                        <br></br>
+                                        <br></br>
+                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://www.youtube.com/watch?v=cOLrXTzTkF4'>
+                                            Ballroom Slick Bun Example - Hair by Sonya on Youtube
+                                        </Link>
+                                    </p>
+                                    <br></br>
+                                    <br></br>
+
                                     <h2>
                                         General Packing/Supplies List
                                     </h2>
+                                    <br></br>
                                     <p>
                                         Please use this checklist, created for Nationals Competitors, as a guideline of items you might need for performance and competition.
                                     </p>
-                                    <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1oV2h2sdvhnw2yOr4c7yQMphmyoIC1RRgA4vTSD6ClpE/edit?tab=t.0#heading=h.95imkhisx7xy'>
+                                    <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://docs.google.com/document/d/1dS-5ErJHbj8oYNlpNzXXyKwshcK-2OmtANoKGu-bOp4/edit?usp=sharing'>
                                         Leads' Packing List
                                     </Link>
                                 </Col>

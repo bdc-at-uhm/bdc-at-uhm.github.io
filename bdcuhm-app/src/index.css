@@ -68,8 +68,15 @@ body {
   font-weight: bold;
 }
 
+.nav-tabs {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .nav-tabs .nav-link {
-  font-size: 1.25rem;
+  font-size: clamp(0.85rem, 2.5vw, 1.25rem);
+  white-space: nowrap;
 }
 
 .officer-name {
