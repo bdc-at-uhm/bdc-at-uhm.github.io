@@ -102,7 +102,7 @@ function ForNewPerformers() {
                                             <b>Performers must join our club Discord for news and updates.</b> We use Discord to post reminders, share photos, and share other performance-related information.
                                         </p>
                                         <p>
-                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
+                                            <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/7tTzvVrHM9'>Join our Discord here!
                                             </Link>
                                         </p>
 
@@ -253,7 +253,7 @@ function ForNewPerformers() {
 
                                     </p>
                                     <p>
-                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/z3A2dX9Vfn'>Join our Discord here!
+                                        <Link className='h5' style={{ textAlign: '-khtml-right', color: '#F0BB2B' }} to='https://discord.gg/7tTzvVrHM9'>Join our Discord here!
                                         </Link>
                                     </p>
 
